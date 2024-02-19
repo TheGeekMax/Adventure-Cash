@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
+[CreateAssetMenu(fileName = "AllOfTable", menuName = "LootTable/AllOfTable")]
 public class AllOfTable : LootTable{
     public List<LootTable> list = new List<LootTable>();
 

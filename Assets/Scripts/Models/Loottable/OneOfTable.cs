@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
+[CreateAssetMenu(fileName = "OneofTable", menuName = "LootTable/OneofTable")]
 public class OneofTable : LootTable{
     public List<ElementWeight> list = new List<ElementWeight>();
 
