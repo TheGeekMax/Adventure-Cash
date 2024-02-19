@@ -12,6 +12,14 @@ public abstract class User{
     private int deffensePoint;
     private int money;
     private int level;
+    private Chestplate chestplate;
+    private Boots boots;
+    private Glove glove;
+    private MeleeRanged meleeRanged;
+    private Magic magic;
+
+
+
 
     public abstract int attack();
     public abstract int defend(int damage);
